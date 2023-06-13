@@ -966,7 +966,7 @@ section{
     letter-spacing: 1.2;
     font-size: 24px;
     font-weight: 600;
-    color: rgb(245, 84, 84);
+    color: black;
 }
 /*creating downward arrow*/
 .faq-title::after{
