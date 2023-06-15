@@ -18,7 +18,7 @@ ul{
 a{
     color:black;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 520;
 }
 
 a:hover{
@@ -26,34 +26,27 @@ a:hover{
     color: #838383;
 }
 .menu li{
-    font-size: 16px;
-    padding: 15px 5px;
+    font-size: 18px;
+    padding: 10px 5px;
 }
 .menu li a{
     display: block;
-    justify-content: space-between;
+    justify-content:center;
+    padding: 12px 14px;
+    padding-right: 2rem;
 }
 .logo img{
     position: relative;
-    max-width: 10em;
-    border-radius: 3px;
+    max-width: 0.5rem;
+    max-height: 6rem;
 }
 .button.secondary{
     border-bottom: 1px #0a0a0a solid;
 }
-.nav2 {
-    text-align:center;
-    margin-top:25px;
-    margin-bottom:5px;
-    font-weight:bold;
-    text-decoration:none;
-     color:#000;
-     background-color: #fff;
-}
 
-.nav3 {
+.nav3{
     font-size: 0.9rem;
-    padding: 0.3rem;
+    padding: 0.2rem;
     text-align:center;
     margin-top:1px;
     margin-bottom:2px;
@@ -66,6 +59,7 @@ a:hover{
      flex-direction: row;
      justify-content: space-evenly;
 }
+
 
 /*responsive*/
 @media screen and (max-width: 600px) {
@@ -115,7 +109,7 @@ a:hover{
   }
   
   /* Dropdown button */
-  .dropdown .dropbtn {
+  .menu .dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
@@ -124,6 +118,14 @@ a:hover{
     background-color: inherit;
     font: inherit; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
+  }
+  #dropbtn{
+    font-size: 1.2rem;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    font-weight: 500;
+    padding-right: 2rem;
   }
   
   /* Add a red background color to navbar links on hover */
@@ -388,7 +390,7 @@ section{
     border-radius: 34rem;
 }
 .text{
-    padding: 6% 0;
+    padding: 5% 0;
 }
 .text h4{
     color: red;
@@ -413,29 +415,33 @@ section{
     margin-bottom: 50px;
 }
 .text p{
-   max-width: 600px;
+   max-width: 650px;
    color: black;
    font-size: 15px;
    font-weight: 400;
-   line-height: 1.7;
+   line-height: 1.4;
    margin-bottom: 60px; 
 }
 .last-text{
     display: flex;
+    line-height: 50px;
 }
 .text1{
     margin-right: 60px;
 }
+.text3{
+    margin-left: 60px;
+}
 .last-text h3{
     color: red;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 .last-text h5{
     color: black;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
-    line-height: 18px;
+    line-height: 15px;
 }
 
 /*Services*/
@@ -446,8 +452,8 @@ section{
     align-items: center;
     flex-direction: column;
     background:#fff;
-    padding-top: -1rem;
-    padding-bottom: 1rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
  }
  .wrapper h1{
      font-size: 2.1rem;
@@ -468,8 +474,8 @@ section{
     margin-top: 30px;
  }
  .card{
-    min-height: 225px;
-    width: 320px;
+    min-height: 210px;
+    width: 310px;
     padding: 30px;
     border-radius: 40px;
     display: flex;
@@ -889,11 +895,11 @@ section{
     color: #fff;
 }
 .header-title{
-    font-size: 48px;
+    font-size: 60px;
     letter-spacing: 1.5;
 }
 .header-desc{
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 1;
     text-align: center;
 }
@@ -1219,6 +1225,7 @@ blockquote{
  }
  h6 i{
     font-size: 1.1rem;
+    margin: 0.6rem;
  }
  footer .social_icon, footer .fmenu {
     position: relative;
@@ -1259,6 +1266,7 @@ blockquote{
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 1em;
+    justify-content:space-around;
  }
 
  footer p{
@@ -1447,6 +1455,9 @@ blockquote{
     .faq-title{
         font-size: 20px;
     }
+    #dropbtn {
+        display: none;
+    }
 }
 
 /*responsive Navbar*/
@@ -1498,6 +1509,8 @@ blockquote{
 .bars::after{
     top:-5px;
 }
+
+
 
 /*Tablet Menu*/
 
@@ -1589,7 +1602,7 @@ blockquote{
     .item{
         display: block;
         width: auto;
-        margin: 0.3rem; /* Important for vertical align on mobile phones */
+        margin: 0.2rem; /* Important for vertical align on mobile phones */
     }
     .toggle{
         display: none;
@@ -1615,6 +1628,7 @@ blockquote{
         padding: 10px 7px;
         margin: 0.1rem; /* Important for vertical align on mobile phones */
       }
+      
       .logo img{
         position: relative;
         max-width: 10em;
